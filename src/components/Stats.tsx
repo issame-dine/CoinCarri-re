@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 export default function Stats() {
   const stats = [
     { value: "+457", label: "Partenaires" },
-    { value: "4943+", label: "Offres" },
+    { value: "+4943", label: "Offres" },
     { value: "100%", label: "Gratuit" },
   ];
 

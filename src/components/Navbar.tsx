@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className="absolute top-0 w-full flex justify-between items-center px-8 py-6 z-50 max-w-7xl left-1/2 -translate-x-1/2">
       <motion.div 
-        initial={{ opacity: 0, x: -20 }}
+        initial={{ opacity: 10, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
         className="flex items-center"
